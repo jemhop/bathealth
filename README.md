@@ -12,7 +12,7 @@ It prints some little 2012 style messages by default, these can be changed super
 
 *Obviously requires Ruby and UPower*
 
-**To either run this script quickly or sample it's output, feel free to run:**
+**To either run this script quickly or sample its output, feel free to run:**
 
 `curl -s https://raw.githubusercontent.com/jemhop/bathealth/main/bathealth.rb | ruby`
 
