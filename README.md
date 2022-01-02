@@ -5,7 +5,7 @@
 A simple Ruby script that fetches your battery health from UPower and prints it in a readable way. 
 It defaults to fetching the health for BAT0, but if supplied with the flag -a it will give 
 you a selection menu of all your power devices. It can also be supplied
-with a number to debug different battery health levels. These two argumnets
+with a number to debug different battery health levels. These two argumenets
 are not compatible.
 
 It prints some little 2012 style messages by default, these can be changed super easily. 
