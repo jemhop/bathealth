@@ -7,7 +7,8 @@ def put_bat_info(bat_path, debug_perc)
 	colour = ""
 	text = ""
 	if index.nil?
-		puts "\x1b[38;5;196mThis device doesn't have a design capacity\x1b[0m"
+		puts "\x1b[38;5;196mThis poewr device doesn't have a design capacity, make sure the selected device is a battery\x1b[0m"
+		puts "\x1b[0;2m(#{bat_path})"
 		return
 	end
 	
